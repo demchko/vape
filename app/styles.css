@@ -1,0 +1,9 @@
+@import 'swiper/swiper-bundle.css';
+::-webkit-scrollbar {
+    width: 10px; /* Ширина курсора прокрутки */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #6b1dae; /* Колір курсора прокрутки */
+    border-radius: 6px; /* Закруглення країв курсора прокрутки */
+}

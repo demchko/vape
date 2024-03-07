@@ -10,9 +10,11 @@ import {
 } from "@remix-run/react";
 
 import styles from "./tailwind.css"
+import style from './styles.css';
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: styles },
+  { rel: "stylesheet", href: style },
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
 ];
 

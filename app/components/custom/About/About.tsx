@@ -18,7 +18,7 @@ export default function About(){
 
     return (
         <div className='flex' >
-            <div className='flex-1' >
+            <div className='flex-1 ' >
                <div className='flex justify-center'  >
                    <img style={{width: '58%'}} alt='banner' src='https://static.vecteezy.com/system/resources/previews/009/875/185/original/3d-vape-black-purple-skin-looks-lying-free-png.png' />
                </div>
