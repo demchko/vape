@@ -19,7 +19,7 @@ export default function Advantages() {
                 <img
                     className="relative rounded-lg"
                     src="https://s3-media0.fl.yelpcdn.com/bphoto/Dw2dQ5ErD2lmnUwqVljaFQ/1000s.jpg"
-                    alt="fg"
+                    alt="advantages_img"
                     style={{ width: "40%" }}
                 />
                 <div>
