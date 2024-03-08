@@ -22,7 +22,7 @@ export default function Advantages() {
                     alt="fg"
                     style={{ width: "40%" }}
                 />
-                <div className="">
+                <div>
                     {advantages.map((item) => (
                         <p
                             key={item.id}

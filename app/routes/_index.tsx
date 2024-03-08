@@ -3,6 +3,7 @@ import Header from "~/components/custom/Header/Header";
 import About from "~/components/custom/About/About";
 import Advantages from "~/components/custom/Advantages/Advantages";
 import NewStuff from "~/components/custom/NewStuff/NewStuff";
+import Faq from "~/components/custom/FAQ/Faq";
 export const meta: MetaFunction = () => {
   return [
     { title: "New Remix App" },
@@ -17,6 +18,7 @@ export default function Index() {
       <About />
       <Advantages />
       <NewStuff />
+      <Faq />
     </div>
   );
 }
