@@ -26,8 +26,10 @@ export default function About(){
                 <Button variant='outline' className='m-4' size='lg' >Переглянути характеристики</Button>
             </div>
             <div className='flex-1' >
-                <h1 className='text-8xl font-mono'>BestVape</h1>
-                <p className='text-4xl text-gray-500 '>Новий Вейп для вашого здоров'я</p>
+                <h1 className='font-mono text-8xl'>BestVape</h1>
+                <div className='hidden lg:block' >
+                    <p className='text-4xl'>Новий Вейп для вашого здоров'я</p>
+                </div>
                 <div className='mt-10' >
                     {
                         advantages.map((item: IAdvantages) => (

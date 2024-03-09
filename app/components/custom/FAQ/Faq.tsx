@@ -1,5 +1,5 @@
 import {Accordion, AccordionItem, AccordionTrigger, AccordionContent} from "~/components/ui/accordion";
-import {Form} from "@remix-run/react";
+
 type FaqItem = {
     id: number;
     title: string;
@@ -13,6 +13,10 @@ const FaqArr: FaqItem[] = [
     {id: 4, title: 'Чи є у вейпів гарантія?', answer: 'Більшість виробників вейпів надають обмежену гарантію на свої вироби. Тривалість та умови гарантії можуть відрізнятися залежно від виробника та конкретної моделі. Детальну інформацію про гарантію ви можете знайти в документації, що постачається разом із виробом або звернутися до нашого персоналу для консультації.'},
     {id: 5, title: 'Як правильно зберігати вейп під час подорожі?', answer: 'Вейп краще зберігати в захисному чохлі або кейсі, щоб запобігти пошкодженням і витіканню рідини.'},
 ]
+
+export const loader = async () => {
+    return null;
+};
 
 export default function Faq(){
     return (
