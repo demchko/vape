@@ -10,7 +10,6 @@ const advantages: Advantages[] = [
     { id: 3, title: "Найкращі ціни", style: "text-2xl w-1/5 top-20 absolute right-1/4 -mr-12 p-3 rounded-lg bg-gradient-to-r from-purple-700 to-black" },
     { id: 3, title: "Найякісніші товари", style: "text-2xl w-1/5 bottom-20 absolute right-1/4 -mr-12 p-3 rounded-lg bg-gradient-to-r from-purple-700 to-black" },
 ];
-
 export default function Advantages() {
     return (
         <div style={{ height: "100vh" }}>
@@ -34,6 +33,14 @@ export default function Advantages() {
                     ))}
                 </div>
             </div>
+                {/*<ul>*/}
+                {/*    {posts.map((post) => (*/}
+                {/*        <li key={post.id}>*/}
+                {/*                <h2>{post.title}</h2>*/}
+                {/*            <p>{post.body}</p>*/}
+                {/*        </li>*/}
+                {/*    ))}*/}
+                {/*</ul>*/}
         </div>
     );
 }

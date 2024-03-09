@@ -9,13 +9,13 @@ interface IAdvantages{
     el: ReactNode,
     text: string
 }
-export default function About(){
-    const [advantages] = useState<IAdvantages[]>([
-        {id: 1, el: <IoIosSpeedometer size={45} />, text: 'Швидка доставка'},
-        {id: 2, el: <GiHealthNormal size={45} />, text: 'На 40% безпечніший'},
-        {id: 3, el: <GiLips size={45} />, text: 'Смак'},
-    ])
 
+const advantages: IAdvantages[] = [
+    {id: 1, el: <IoIosSpeedometer size={45} />, text: 'Швидка доставка'},
+    {id: 2, el: <GiHealthNormal size={45} />, text: 'На 40% безпечніший'},
+    {id: 3, el: <GiLips size={45} />, text: 'Смак'},
+]
+export default function About(){
     return (
         <div className='flex' >
             <div className='flex-1 ' >

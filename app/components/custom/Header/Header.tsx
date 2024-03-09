@@ -11,19 +11,20 @@ interface ISocial{
     icon: ReactNode
 }
 
-export default function Header(){
-    const [menu] = useState<IMenu[]>([
-        {id: 1, name: 'Why we?'},
-        {id: 2, name: 'Pods'},
-        {id: 3, name: 'Contacts'},
-        {id: 4, name: 'Faq'},
-    ]);
+const menu: IMenu[] = [
+    {id: 1, name: 'Why we?'},
+    {id: 2, name: 'Pods'},
+    {id: 3, name: 'Contacts'},
+    {id: 4, name: 'Faq'},
+];
 
-    const [social] = useState<ISocial[]>([
-        {id: 1, icon: <FaInstagram size={40} />},
-        {id: 2, icon: <FaFacebook size={40} />},
-        {id: 3, icon: <FaTwitter size={40} />}
-    ])
+const social: ISocial[] = [
+    {id: 1, icon: <FaInstagram size={40} />},
+    {id: 2, icon: <FaFacebook size={40} />},
+    {id: 3, icon: <FaTwitter size={40} />}
+]
+
+export default function Header(){
     return (
         <header className='flex justify-between items-center' >
             <img src='https://i.pinimg.com/originals/fd/44/c1/fd44c1631be88a4e808ef3bd77db6091.png' alt='vape' className='w-40' />

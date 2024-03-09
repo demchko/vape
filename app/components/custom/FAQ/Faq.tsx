@@ -1,5 +1,5 @@
 import {Accordion, AccordionItem, AccordionTrigger, AccordionContent} from "~/components/ui/accordion";
-
+import {Form} from "@remix-run/react";
 type FaqItem = {
     id: number;
     title: string;

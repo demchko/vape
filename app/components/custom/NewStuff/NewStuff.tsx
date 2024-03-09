@@ -31,8 +31,6 @@ export default function NewStuff() {
                     slidesPerView={3}
                     effect='coverflow'
                     pagination={{ clickable: true }}
-                    onSwiper={(swiper) => console.log(swiper)}
-                    onSlideChange={() => console.log('slide change')}
                     className='cursor-pointer'
                 >
                     {
